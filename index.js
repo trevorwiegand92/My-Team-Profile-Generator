@@ -30,3 +30,4 @@ function createFile(htmlCode) {
     }
     fs.writeFileSync(outputPath, htmlCode, 'utf-8');
 }
+
