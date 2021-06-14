@@ -1,16 +1,10 @@
-Finished homework assignment for week ten. Creating a Team Profile Generator.
+Finished homework assignment for week ten. Creating a team profile generator.
 
 NAME: My Team Profile Generator
 
-This is my portfolio website for the eighth homework assignment, and the beginnings of what will eventually become my professional portfolio for future showings of my work and experience.
+The objective of this assignment was to create a Node.js command-line application that takes  information about employees and then generates an HTML webpage that displays summaries for each person.
 
-The objective of this assignment was to create a quality README using a command-line application to generate one for the user, allowing more devotion to the creator to work on the project.
-
-The command-line application dynamically generates a professional README.md file from a user's input using the Inquirer package. The application is invoked by using the following command:
-
+The application uses Jest for running the unit tests and Inquirer for collecting input from the user. The application will be invoked by using the following command:
 node index.js
-When the user is prompted for information about the application repository, a high-quality, professional README.md is generated with the title of the project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
 
-Github Repository URL:
-
-Walkthrough video:
+After the user inputs their information for each employee, the html page will display each employee's name, id number, email, role, and github information. 
